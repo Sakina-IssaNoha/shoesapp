@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sneakers">
+
+    <ImageView
+        android:id="@+id/imgsneaker1"
+        android:layout_width="211dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvsneaker1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvsneaker1"
+        app:layout_constraintVertical_bias="0.603"
+        app:srcCompat="@drawable/sneaker2" />
+
+    <TextView
+        android:id="@+id/tvsneaker1"
+        android:layout_width="82dp"
+        android:layout_height="33dp"
+        android:text="Ksh.5500"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toEndOf="@+id/imgsneaker1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <ImageView
+        android:id="@+id/imgsneaker2"
+        android:layout_width="212dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvsneaker2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvsneaker2"
+        app:layout_constraintVertical_bias="0.685"
+        app:srcCompat="@drawable/sneaker3" />
+
+    <TextView
+        android:id="@+id/tvsneaker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Ksh.3000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/imgsneaker2"
+        app:layout_constraintTop_toBottomOf="@+id/tvsneaker1"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <ImageView
+        android:id="@+id/imgsneaker3"
+        android:layout_width="209dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvsneaker3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvsneaker3"
+        app:layout_constraintVertical_bias="0.425"
+        app:srcCompat="@drawable/sneaker4" />
+
+    <TextView
+        android:id="@+id/tvsneaker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ksh.6000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgsneaker3"
+        app:layout_constraintTop_toBottomOf="@+id/tvsneaker2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
